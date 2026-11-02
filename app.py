@@ -8,7 +8,7 @@ st.set_page_config(
     layout="centered"
 )
 
-model = joblib.load("spam_model.pkl")
+model = joblib.load("spam_model (1).pkl")
 tfidf = joblib.load("tfidf_vectorizer.pkl")
 
 st.title("🛡️ SpamShield AI")
